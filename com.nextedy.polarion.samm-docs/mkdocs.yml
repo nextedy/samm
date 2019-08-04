@@ -1,0 +1,33 @@
+site_name:  SAMM in Polarion 
+site_description: 'A set of Polarion Extensions, Templates and Reports to enable support for Software Assurance Maturity Model'
+site_author: 'Nextedy'
+
+nav:
+    - Getting Started: index.md
+    - Setup: setup.md
+    - Pricing: pricing.md
+    - About: about.md
+
+
+theme:
+  name: 'material'
+  font: false
+  palette:
+    primary: 'green'
+    accent: 'red'
+  favicon: img/favicon.png
+    
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - meta
+  - tables
+  
+  
+google_analytics:
+  - 'UA-125777914-2'
+  - 'auto'
+  
+copyright: 'Copyright &copy; 2019 Nextedy Systems'
+  
