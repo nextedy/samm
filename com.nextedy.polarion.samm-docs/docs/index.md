@@ -1,6 +1,10 @@
 # SAMM in Polarion
 
-A set of Polarion Extensions, Templates and Reports to enable support of Software Assurance Maturity Model (SAMM) implementation in Polarion ALM.
+A set of Polarion Extensions, Templates and Reports to enable support of **Software Assurance Maturity Model** (SAMM) implementation in Polarion ALM.
+
+* *Track security objectives and corrective actions as auditable Work Items not Excel Cells.*
+* *Comes with easy to use online interview sheets.*
+* *Manage your security assessment centrally and roll it out through entire SW department.*
 
 <div id="download-button" >
 <style>
