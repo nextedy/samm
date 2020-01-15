@@ -1,33 +1,70 @@
-site_name:  SAMM in Polarion by Nextedy Systems
+site_name:  Nextedy SECURITYPLANNER
 site_description: 'A set of Polarion Extensions, Templates and Reports to enable support for Software Assurance Maturity Model'
 site_author: 'Nextedy'
+site_url: https://samm.nextedy.com
 
 nav:
-    - Getting Started: index.md
-    - Setup: setup.md
-    - Pricing: pricing.md
-    - About: about.md
-
+    - Home: index.md
+    - Download: download.md
+    - Pricing: pricing.md 
+    - Support: support.md 
+    - News: news.md
+    - About us: about.md
 
 theme:
   name: 'material'
   font: false
   palette:
-    primary: 'green'
-    accent: 'red'
+    primary: 'black'
+    accent: 'green'
   favicon: img/favicon.png
-    
+  custom_dir: 'theme'
+  logo: 'https://www.nextedy.com/wp-content/uploads/2018/10/nextedy-logo.png'
 
+extra_css:
+  - 'extra/extra.css'
+
+extra_javascript:
+  - 'extra/extra.js'
+  
+extra:
+  product:
+     name: Nextedy SECURITYPLANNER
+     url: https://samm.nextedy.com 
+     requirements: Polarion 18.1 and newer   
+  support:
+     solution: 48000448935
+     installGuide: https://nextedy.freshdesk.com/support/solutions/articles/48000973428-nextedy-worksheet-installation-guide 
+  hs:
+     id: 6265870
+     quoteFormId: 208fa80c-333b-4347-a303-afa5199f70e7
+     downloadFormId: 7bbfe403-1d5c-48fb-9e82-4bdcc46c7e4f
+  other1:
+     name: Nextedy GANTT
+     url: https://gantt.nextedy.com
+     image: https://gantt.nextedy.com/img/resource-panel.png
+     description: The first interactive high-level project planning & scheduling in Polarion ALM.
+  other2:
+     name: Nextedy CHECKLIST
+     url: https://checklist.nextedy.com
+     image: https://checklist.nextedy.com/img/checklist.png
+     description: Extend your Polarion with action-able checklists to support your workflow process.
+  other3:
+     name: Nextedy WORKSHEET
+     url: https://worksheet.nextedy.com
+     image: https://worksheet.nextedy.com/img/worksheet-all-thumb.png
+     description: Interactive Work Tracking and Team Assignments for Polarion ALM.
+  
 markdown_extensions:
   - admonition
   - codehilite
   - meta
   - tables
+  - attr_list
   
+plugins:
+    - search
+    - markdownextradata: {}  
   
-google_analytics:
-  - 'UA-125777914-2'
-  - 'auto'
-  
-copyright: 'Copyright &copy; 2019 Nextedy Systems'
+copyright: 'Copyright &copy; 2020 Nextedy Systems'
   
