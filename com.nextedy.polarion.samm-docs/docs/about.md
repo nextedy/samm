@@ -31,17 +31,6 @@ The **{{ product.name}}** are brought to you by Nextedy Systems (a Siemens Techn
       </div>
     </div> 
   </div>
-   <div class="card" >
-    <div class="image">
-      <img src="{{other3.image}}">
-    </div>
-    <div class="content">
-      <div class="header"><a href="{{other3.url}}">{{other3.name}}</a></div>      
-      <div class="description">
-       <a href="{{other3.url}}">{{other3.description}}</a>
-      </div>
-    </div> 
-  </div>
 </div>
 </div>
 
