@@ -2,6 +2,8 @@ site_name:  Nextedy SECURITYPLANNER
 site_description: 'A set of Polarion Extensions, Templates and Reports to enable support for Software Assurance Maturity Model'
 site_author: 'Nextedy'
 site_url: https://samm.nextedy.com
+site_GTM_ID: GTM-MH3X9GS
+site_HS_ID: 6265870
 
 nav:
     - Home: index.md

@@ -2,7 +2,7 @@
   This file was automatically generated - do not edit
 -#}
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MH3X9GS"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ config.site_GTM_ID }}"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
@@ -28,16 +28,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           {% else %}
             <span class="md-header-nav__topic">
               {{ config.site_name }}
-            </span>           
-            <span class="md-header-nav__topic">              
-              {% if page and page.meta and page.meta.title %}                                       
+            </span>
+            <span class="md-header-nav__topic">
+              {% if page and page.meta and page.meta.title %}
                 {{ config.site_name }} - {{ page.meta.title }}
               {% else %}
-               {{ config.site_name }}{% if  page.title != "Home" %} - {{ page.title }}{% endif %}              
+               {{ config.site_name }} - {{ page.title }}
               {% endif %}
             </span>
-            {% endif %}
-         
+          {% endif %}
         </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
